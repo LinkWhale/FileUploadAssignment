@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(185, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 2em;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+form {
+    font-size: 110%;
+    padding: 1em;
+    background-color: rgb(221, 221, 221);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+input[type=text] {
+    height: 1.3em;
+    background-color: rgb(185, 185, 185);
+    border: none;
+    margin: 1%;
+}
+
+input[type=text]:focus {
+    height: 1.3em;
+    background-color: rgb(155, 155, 155);
+    margin: 1%;
+    outline: none;
+}
+input[type=submit] {
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    width: 10%;
+    outline: none;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.output {
+    margin: 2em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.labels {
+    text-align: left;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+}
